@@ -6,7 +6,7 @@ Re, Gr, Wh, Ye= '\033[1;31m', '\033[1;32m', '\033[1;37m', '\033[1;33m'
 def main():
     spin = []
 
-    with open('pass.txt', 'r' , encoding='utf-8') as f:
+    with open('src/pass.txt', 'r' , encoding='utf-8') as f:
         for r in f:
             r= r.rstrip('\n')
             spin.append(r)
